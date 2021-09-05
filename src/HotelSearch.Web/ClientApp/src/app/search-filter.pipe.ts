@@ -1,10 +1,11 @@
 import { ReturnStatement } from '@angular/compiler';
-import { Pipe, PipeTransform } from '@angular/core';
+import { Injectable, Pipe, PipeTransform } from '@angular/core';
 import { Hotel } from './hotel-model';
 
 @Pipe({
   name: 'searchFilter'
 })
+@Injectable()
 export class SearchFilterPipe implements PipeTransform {
 
   transform(Hotels: Hotel[], searchValue: string): Hotel[] {

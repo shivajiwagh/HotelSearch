@@ -8,3 +8,4 @@
 /src/HotelSearch.Web/.vscode
 /tests/HotelSearch.Infrastructure.Tests/bin/Debug/net5.0
 /tests/HotelSearch.Infrastructure.Tests/obj
+/tests/HotelSearch.Web.Tests/obj
