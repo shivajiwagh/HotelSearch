@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\shiva\AppData\Local\Temp\JetBrains\ReSharperPlatformVs16\vAny_24c8e351\CoverageData\_HotelSearch.-1903266627\Snapshot\snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=82bdca32_002D729a_002D451e_002D8ab4_002D043ce1d133d0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="HotelSearchRepositoryTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::F72E8B3C-5E64-4D19-8785-D938067CFD6E::net5.0::HotelSearch.Infrastructure.Tests.HotelSearchRepositoryTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

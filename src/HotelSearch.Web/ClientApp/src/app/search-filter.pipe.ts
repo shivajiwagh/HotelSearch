@@ -14,6 +14,7 @@ export class SearchFilterPipe implements PipeTransform {
     return Hotels.filter(hotel => 
       hotel.name.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase()) ||
       hotel.description.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase()) ||
+      hotel.location.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase()) ||
       hotel.rating == Number.parseInt(searchValue)
       );
   }
