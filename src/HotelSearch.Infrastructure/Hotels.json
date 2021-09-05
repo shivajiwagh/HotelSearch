@@ -1,0 +1,68 @@
+[
+  {
+    "name": "The Strawberry Bank Hotel",
+    "description": "Restaurant , Pub & Function Suite, Great bar, Free parking, Great dining. Great location",
+    "location": "Main Rd, Meriden, Coventry CV7 7NF",
+    "rating": 2
+  },
+  {
+    "name": "Castle Limes Hotel",
+    "description": "Great housekeeping, Top-rated, Free parking, Near Warwick Castle",
+    "location": "2-4 Coventry Rd, Warwick CV34 4LJ",
+    "rating": 5
+  },
+  {
+    "name": "Travelodge Crawley",
+    "description": "Parking, Cleanliness, Location, Service, Breakfast, Bar, Very Good",
+    "location": "Pegler Way, Crawley RH10 1GE",
+    "rating": 4
+  },
+  {
+    "name": "Crowne Plaza London - Gatwick Airport",
+    "description": "Contemporary airport hotel offering warm rooms & suites, plus a sleek restaurant, a gym & a bar",
+    "location": "Langley Dr, Crawley RH11 7SX",
+    "rating": 4
+  },
+  {
+    "name": "Premier Inn London Gatwick Airport (Manor Royal) hotel",
+    "description": "En suite bedrooms in a budget hotel with an on-site restaurant and meeting rooms.",
+    "location": "Crawley Business Quarter, Fleming Way, Crawley RH10 9DF",
+    "rating": 3
+  },
+  {
+    "name": "Walltree House",
+    "description": "Comfy clean beds and breakfast has the option to be delivered to our bedroom",
+    "location": "Walltree House, Brackley NN13 5NS",
+    "rating": 5
+  },
+  {
+    "name": "The Grosvenor Hotel Rugby",
+    "description": "Free parking, Near public transport, Great service – Guests liked the service at this hotel",
+    "location": "81-87 Clifton Rd, Rugby CV21 3QQ",
+    "rating": 2
+  },
+  {
+    "name": "ibis Rugby East",
+    "description": "Unfussy property offering a bar/restaurant & meeting space, plus complimentary Wi-Fi",
+    "location": "Dirft East, Parklands, Crick NN6 7EX",
+    "rating": 1
+  },
+  {
+    "name": "Deer Keeper's Hut",
+    "description": "Excellent hosts, wonderful quirky accommodation",
+    "location": "Yews Farm, Rugby Rd, Pailton, Rugby CV23 0QH",
+    "rating": 0
+  },
+  {
+    "name": "The Pytchley Inn",
+    "description": "Busy country pub with all-day menu of grills and small plates, plus stylish en suite guestrooms",
+    "location": "23 High St, West Haddon, Northampton NN6 7AP",
+    "rating": 3
+  },
+  {
+    "name": "Narrow Boat at Weedon",
+    "description": "Pub Restaurant, Bed & Breakfast Hotel, Stone baked pizzas and gastropub favourites feature on the menu of this quaint pub with canal views",
+    "location": "Watling Street, A5, Stowehill, Northampton NN7 4RZ",
+    "rating": 2
+  }
+]

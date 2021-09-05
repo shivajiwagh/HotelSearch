@@ -3,3 +3,8 @@
 ################################################################################
 
 /.vs/HotelSearch
+/src/HotelSearch.Infrastructure/bin/Debug/net5.0
+/src/HotelSearch.Infrastructure/obj
+/src/HotelSearch.Web/.vscode
+/tests/HotelSearch.Infrastructure.Tests/bin/Debug/net5.0
+/tests/HotelSearch.Infrastructure.Tests/obj
