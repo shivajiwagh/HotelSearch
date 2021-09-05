@@ -10,3 +10,4 @@
 /tests/HotelSearch.Infrastructure.Tests/obj
 /tests/HotelSearch.Web.Tests/obj
 /tests/HotelSearch.Web.Tests/bin/Debug/net6.0
+/.vs
