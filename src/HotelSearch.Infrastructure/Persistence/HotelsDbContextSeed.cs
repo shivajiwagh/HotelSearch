@@ -10,12 +10,13 @@ namespace HotelSearch.Infrastructure.Persistence
 {
     public class HotelsDbContextSeed
     {
+        public static string FileName { get; set; } = "Hotels.json";
         public static async Task SeedAsync(HotelsDbContext context)
         {
             try
             {
                 string assemblyFolder = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-                string fileFullName = Path.Combine(assemblyFolder ?? string.Empty, "Hotels.json");
+                string fileFullName = Path.Combine(assemblyFolder ?? string.Empty, FileName);
                 string hotelList = await File.ReadAllTextAsync(fileFullName);
                 List<Hotel> hotels = JsonConvert.DeserializeObject<List<Hotel>>(hotelList);
                 await context.Hotels.AddRangeAsync(hotels ?? new List<Hotel>());
@@ -24,7 +25,6 @@ namespace HotelSearch.Infrastructure.Persistence
             catch (Exception e)
             {
                 Console.WriteLine(e);
-                throw;
             }
         }
     }

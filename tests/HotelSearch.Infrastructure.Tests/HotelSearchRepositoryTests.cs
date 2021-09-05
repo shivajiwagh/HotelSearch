@@ -4,6 +4,7 @@ using HotelSearch.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using System.IO;
 
 namespace HotelSearch.Infrastructure.Tests
 {
@@ -23,10 +24,18 @@ namespace HotelSearch.Infrastructure.Tests
         }
 
         [TestMethod]
-        public async Task TestMethod1()
+        public async Task GetAllHotelsFromJSON()
         {
             List<Hotel> hotelList = (List<Hotel>)await _hotelsRepository.GetHotelsList();
             Assert.IsTrue(hotelList.Count == 11);
+        }
+
+        [TestMethod]
+        public async Task JSONFileNotFound()
+        {
+            HotelsDbContextSeed.FileName = "Nofile.json";
+            List<Hotel> hotelList = (List<Hotel>)await _hotelsRepository.GetHotelsList();
+            Assert.IsTrue(hotelList.Count == 0);
         }
     }
 }
